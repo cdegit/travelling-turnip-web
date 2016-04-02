@@ -27,8 +27,6 @@ li {
     height: 50px;
 
     background-color: #2C2C2C;
-
-    color: #BBBDC0;
 }
 
 .c-header > div {
@@ -66,11 +64,16 @@ li {
 .c-header__nav-item a {
 	position: relative;
 	top: 30%;
+
+	color: #BBBDC0;
+	text-decoration: none;
 }
 
 .c-header__nav-item.c--active {
 	border-bottom: 5px solid #E37353;
+}
 
+.c-header__nav-item.c--active a {
 	color: #FCFCFC;
 }
 
