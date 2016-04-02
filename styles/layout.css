@@ -1,5 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
 }
 
 .c-content-container {
@@ -12,6 +18,8 @@ body {
 
 .c-prototype-container {
 	width: 100%;
+
+	background-color: #EEEDE8;
 }
 
 .c-next-tile {

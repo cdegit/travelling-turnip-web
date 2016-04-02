@@ -1,3 +1,19 @@
 .c-tile {
+	position: relative;
+
 	height: 100vh;
+}
+
+.c-tile__body {
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+
+    width: 100%;
+    padding: 0 40px;
+}
+
+.c-tile a {
+	color: #E37353;
+	font-style: italic;
 }
