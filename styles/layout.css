@@ -100,6 +100,13 @@ li {
 	background: none;
 	border: none;
 	outline: none;
+
+	transition: opacity .75s;
+	opacity: 1;
+}
+
+.c-next-tile.c--hidden {
+	opacity: 0;
 }
 
 .c-next-tile img {

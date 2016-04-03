@@ -1,3 +1,19 @@
+// https://davidwalsh.name/javascript-debounce-function
+function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};
+
 $(function() {
 	var turnip = {};
 
@@ -26,6 +42,22 @@ $(function() {
 		        }, 500);
 			}
 		});
+	};
+
+	var scrollHandler = function() {
+		var $nextButton = $('.js-next-tile');
+
+		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        	$nextButton.addClass('c--hidden');
+    	} else {
+    		$nextButton.removeClass('c--hidden');
+    	}
+	};
+
+	var debouncedScrollHandler = debounce(scrollHandler, 100);
+
+	window.onscroll = function() {
+		debouncedScrollHandler();
 	};
 
 	initNextButton();
