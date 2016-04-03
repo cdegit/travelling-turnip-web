@@ -35,3 +35,7 @@
 	letter-spacing: 2px;
     line-height: 42px;
 }
+
+.t-nowrap {
+	white-space: nowrap;
+}

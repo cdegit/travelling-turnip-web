@@ -115,3 +115,10 @@ li {
 .c-intro-img {
 	width: 70%;
 }
+
+.c-proto-link {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}

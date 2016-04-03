@@ -17,3 +17,45 @@
 	color: #E37353;
 	font-style: italic;
 }
+
+.c-button {
+	display: block;
+	padding: 10px 20px;
+
+	background-color: #E37353;
+	
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+/* Override .c-tile a */
+a.c-button {
+	color: white;
+}
+
+.c-prototype {
+	width: 350px;
+	height: 614px;
+	margin-top: 73px;
+	margin-left: 14px;
+
+	background: white;
+	border: none;
+}
+
+.c-prototype__container {
+	position: relative;
+}
+
+.c-prototype__wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	pointer-events: none;
+}
