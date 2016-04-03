@@ -96,3 +96,13 @@ li {
 	bottom: 0;
 	left: 50%;
 }
+
+.c-intro-text {
+	position: absolute;
+	top: 120px;
+	right: 50px;
+}
+
+.c-intro-img {
+	width: 70%;
+}

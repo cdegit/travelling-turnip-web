@@ -25,3 +25,13 @@
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+.t-intro {
+	display: block;
+
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 2px;
+    line-height: 42px;
+}
