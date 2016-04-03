@@ -4,3 +4,24 @@
 	font-size: 32px;
 	letter-spacing: 3px;
 }
+
+.t-app-title {
+	display: block;
+	margin: 20px 0;
+
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #E37353;
+	font-size: 32px;
+	letter-spacing: 3px;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.t-green {
+	color: #335B60;
+	font-weight: bold;
+	text-transform: uppercase;
+}

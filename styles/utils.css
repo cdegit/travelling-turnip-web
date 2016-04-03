@@ -18,6 +18,14 @@
 	margin-right: 20px;
 }
 
+.u-margin-top-md {
+	margin-top: 20px;
+}
+
+.u-margin-top-lg {
+	margin-top: 40px;
+}
+
 .u-full-height {
 	height: 100%;
 }
