@@ -93,8 +93,17 @@ li {
 
 .c-next-tile {
 	position: fixed;
-	bottom: 0;
+	bottom: 10px;
 	left: 50%;
+	transform: translateX(-50%);
+
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.c-next-tile img {
+	height: 30px;
 }
 
 .c-intro-text {
