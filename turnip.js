@@ -67,5 +67,12 @@ $(function() {
 		$scooches.scooch();
 	}
 
+	var $mags = $('.m-magnifik');
+	if ($mags.length) {
+		$mags.magnifik({
+			ratio: 1
+		});
+	}
+
 	window.turnip = turnip;
 });
