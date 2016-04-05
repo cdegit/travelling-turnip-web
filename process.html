@@ -4,12 +4,18 @@
 		<title>Travelling Turnip</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="bower_components/scooch/src/scooch.css">
+		<link rel="stylesheet" href="bower_components/scooch/src/scooch-style.css">
+
 		<link href="styles/layout.css" rel="stylesheet" type="text/css">
 		<link href="styles/type.css" rel="stylesheet" type="text/css">
 		<link href="styles/components.css" rel="stylesheet" type="text/css">
 		<link href="styles/utils.css" rel="stylesheet" type="text/css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		<script src="bower_components/scooch/src/scooch.js"></script>
+
 		<script src="turnip.js"></script>
 	</head>
 
@@ -246,9 +252,26 @@
 
 				<div class="c-tile">
 					<!-- Put inside a carousel -->
-					<img src="img/Persona1.jpg" class="u-max-width-full" alt="First persona - Ryan">
-					<img src="img/Persona2.jpg" class="u-max-width-full" alt="Second persona - Isabela">
-					<img src="img/Persona3.jpg" class="u-max-width-full" alt="Third persona - Douglas">
+					<div class="c-tile__body">
+						<div class="m-scooch">
+							<div class="m-scooch-inner">
+								<div class="m-item m-active">
+									<img src="img/Persona1.jpg" class="u-max-width-full" alt="First persona - Ryan">
+								</div>
+								<div class="m-item">
+									<img src="img/Persona2.jpg" class="u-max-width-full" alt="Second persona - Isabela">
+								</div>
+								<div class="m-item">
+									<img src="img/Persona3.jpg" class="u-max-width-full" alt="Third persona - Douglas">
+								</div>
+							</div>
+							<div class="m-scooch-controls m-scooch-bulleted">
+							    <a href="#" data-m-slide="1" class="m-active">1</a>
+							    <a href="#" data-m-slide="2">2</a>
+							    <a href="#" data-m-slide="3">3</a>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="c-tile">
@@ -261,18 +284,51 @@
 
 				<div class="c-tile">
 					<div class="c-tile__body">
-						<img src="img/Sketch1.jpg" class="u-max-width-full" alt="Sketches of the meal detail page">
-						<img src="img/Sketch2.jpg" class="u-max-width-full" alt="Sketches for various pages">
-						<img src="img/GreyBoxWireframes.jpg" alt="Grey Box Wireframes for adding a new recipe and restaurant" class="u-max-width-full">
+						<div class="m-scooch">
+							<div class="m-scooch-inner">
+								<div class="m-item m-active">
+									<img src="img/Sketch1.jpg" class="u-max-width-full" alt="Sketches of the meal detail page">
+								</div>
+								<div class="m-item">
+									<img src="img/Sketch2.jpg" class="u-max-width-full" alt="Sketches for various pages">
+								</div>
+								<div class="m-item">
+									<img src="img/GreyBoxWireframes.jpg" alt="Grey Box Wireframes for adding a new recipe and restaurant" class="u-max-width-full">
+								</div>
+							</div>
+							<div class="m-scooch-controls m-scooch-bulleted">
+							    <a href="#" data-m-slide="1" class="m-active">1</a>
+							    <a href="#" data-m-slide="2">2</a>
+							    <a href="#" data-m-slide="3">3</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
 				<div class="c-tile">
 					<div class="c-tile__body">
-						<img src="img/DraftMockup1.jpg" class="u-max-width-full" alt="Draft mockup of the meals page">
-						<img src="img/DraftMockup2.jpg" class="u-max-width-full" alt="Draft mockup of the map">
-						<img src="img/DraftMockup3.jpg" alt="Draft mockup of the phrasebook" class="u-max-width-full">
-						<img src="img/DraftMockup4.jpg" class="u-max-width-full" alt="Draft mockup of the onboarding">
+						<div class="m-scooch">
+							<div class="m-scooch-inner">
+								<div class="m-item m-active">
+									<img src="img/DraftMockup1.jpg" class="u-max-width-full" alt="Draft mockup of the meals page">
+								</div>
+								<div class="m-item">
+									<img src="img/DraftMockup2.jpg" class="u-max-width-full" alt="Draft mockup of the map">
+								</div>
+								<div class="m-item">
+									<img src="img/DraftMockup3.jpg" alt="Draft mockup of the phrasebook" class="u-max-width-full">
+								</div>
+								<div class="m-item">
+									<img src="img/DraftMockup4.jpg" class="u-max-width-full" alt="Draft mockup of the onboarding">
+								</div>
+							</div>
+							<div class="m-scooch-controls m-scooch-bulleted">
+							    <a href="#" data-m-slide="1" class="m-active">1</a>
+							    <a href="#" data-m-slide="2">2</a>
+							    <a href="#" data-m-slide="3">3</a>
+							    <a href="#" data-m-slide="4">4</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -284,9 +340,24 @@
 
 				<div class="c-tile">
 					<div class="c-tile__body">
-						<img src="img/FinalMockup1.jpg" class="u-max-width-full" alt="Final mockup of the phrasebook">
-						<img src="img/FinalMockup2.jpg" class="u-max-width-full" alt="Final mockup of the map">
-						<img src="img/FinalMockup3.jpg" alt="Final mockup of onboarding" class="u-max-width-full">
+						<div class="m-scooch">
+							<div class="m-scooch-inner">
+								<div class="m-item m-active">
+									<img src="img/FinalMockup1.jpg" class="u-max-width-full" alt="Final mockup of the phrasebook">
+								</div>
+								<div class="m-item">
+									<img src="img/FinalMockup2.jpg" class="u-max-width-full" alt="Final mockup of the map">
+								</div>
+								<div class="m-item">
+									<img src="img/FinalMockup3.jpg" alt="Final mockup of onboarding" class="u-max-width-full">
+								</div>
+							</div>
+							<div class="m-scooch-controls m-scooch-bulleted">
+							    <a href="#" data-m-slide="1" class="m-active">1</a>
+							    <a href="#" data-m-slide="2">2</a>
+							    <a href="#" data-m-slide="3">3</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

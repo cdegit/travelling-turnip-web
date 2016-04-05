@@ -62,5 +62,10 @@ $(function() {
 
 	initNextButton();
 
+	var $scooches = $('.m-scooch');
+	if ($scooches.length) {
+		$scooches.scooch();
+	}
+
 	window.turnip = turnip;
 });

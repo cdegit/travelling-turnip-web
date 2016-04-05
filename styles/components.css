@@ -59,3 +59,12 @@ a.c-button {
 
 	pointer-events: none;
 }
+
+.m-scooch-bulleted a {
+	background-color: #939FA6;
+}
+
+.m-scooch-bulleted a.m-active {
+	background-color: #E37353;
+}
+
