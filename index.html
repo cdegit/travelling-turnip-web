@@ -4,6 +4,8 @@
 		<title>Travelling Turnip</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+		<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+
 		<link href="styles/layout.css" rel="stylesheet" type="text/css">
 		<link href="styles/type.css" rel="stylesheet" type="text/css">
 		<link href="styles/components.css" rel="stylesheet" type="text/css">
@@ -187,11 +189,35 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="c-tile">
+				</div>
+
+				<div class="c-tile">
+				</div>
+
+				<div class="c-tile">
+				</div>
+
+				<div class="c-tile">
+					<div class="c-tile__body">
+						<video id="my-video" class="video-js" controls preload="auto" width="380" height="767" poster="img/Meals_poster.png" data-setup="{}">
+						    <source src="img/Meals.mp4" type='video/mp4'>
+						    <p class="vjs-no-js">
+						      To view this video please enable JavaScript, and consider upgrading to a web browser that
+						      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						    </p>
+						  </video>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<button class="js-next-tile c-next-tile">
 			<img src="img/arrow.png" alt="Jump to next tile">
 		</button>
+
+
+		<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
 	</body>
 </html>

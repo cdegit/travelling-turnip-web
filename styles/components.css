@@ -72,3 +72,14 @@ a.c-button {
 	text-align: center;
 }
 
+.video-js {
+	margin: auto;
+
+	background-color: transparent;
+}
+
+.video-js .vjs-big-play-button {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
