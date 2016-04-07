@@ -161,3 +161,12 @@ section {
 	background-position: center center;
 	height: 11em;
 }
+
+#team-header {
+	background-image: url("../img/cartoon-team.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	height: 25em;
+}
