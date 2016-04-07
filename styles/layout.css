@@ -29,7 +29,7 @@ ul:not(.u-keep-default) li {
     background-color: #2C2C2C;
 }
 
-.c-header > div {
+.c-header__brand {
 	height: 100%;
 }
 
