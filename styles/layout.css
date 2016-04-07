@@ -129,3 +129,31 @@ ul:not(.u-keep-default) li {
     left: 100%;
     transform: translate(-50%, -50%);
 }
+
+section {
+	margin: 0 auto;
+	padding: 3rem 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 60rem;
+}
+
+#header1 {
+	background-image: url("../img/credits-header1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 11em;
+	margin-top: 3em;
+}
+
+#header2 {
+	background-image: url("../img/credits-header2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 11em;
+}
