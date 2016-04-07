@@ -77,6 +77,10 @@ ul:not(.u-keep-default) li {
 	color: #FCFCFC;
 }
 
+.c-main {
+	margin-top: 50px;
+}
+
 .c-content-container {
 	width: 100%;
 
